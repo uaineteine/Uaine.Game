@@ -1,6 +1,6 @@
 ﻿using Uaine.Objects.Primitives.ID;
 
-namespace Uaine.Objects.Game
+namespace Uaine.Game.Player
 {
     public class Player : ID32
     {

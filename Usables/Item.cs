@@ -1,8 +1,6 @@
-﻿using System;
-using Uaine.Game.Stats;
-using Uaine.Objects.Primitives;
+﻿using Uaine.Objects.Primitives;
 
-namespace Uaine.Objects.Game
+namespace Uaine.Game.Usables
 {
     public class Item : NamedObject
     {
@@ -37,13 +35,13 @@ namespace Uaine.Objects.Game
         {
             this.stack = stack;
             this.stackLim = stackLim;
-            this.unlimited = false;
+            unlimited = false;
         }
 
         public ItemStack(int stack, bool unlimited)
         {
             this.stack = stack;
-            this.stackLim = int.MaxValue;
+            stackLim = int.MaxValue;
             this.unlimited = unlimited;
         }
         public void addStack(int number)
