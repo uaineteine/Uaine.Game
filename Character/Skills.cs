@@ -1,6 +1,4 @@
-﻿using Uaine.Game.Character;
-
-namespace Uaine.Game.Stats
+﻿namespace Uaine.Game.Characters
 {
     public class Skills
     {
