@@ -6,11 +6,17 @@ namespace Uaine.Objects.Game.Card
     {
         public IValue cardValue;
         public IValue cardClass;
+        public bool mode { get; private set; }
 
         public Card(int value, int cardclass)
         {
             cardValue = value;
             cardClass = cardclass;
+        }
+
+        public void ChangeMode(bool newm)
+        {
+            mode = newm;
         }
 
         //OPERATORS

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Newtonsoft.Json;
 
 namespace Uaine.Objects.Game.Card
 {
@@ -91,6 +89,16 @@ namespace Uaine.Objects.Game.Card
         {
             cardDeck.AddRange(discardPile);
             discardPile.Clear();
+        }
+
+        //SERIALISE
+        public string SerializeDeckToJson()
+        {
+            return JsonConvert.SerializeObject(this, Formatting.Indented);
+        }
+        public static Deck DeserializeJsonToDeck(string json)
+        {
+            return JsonConvert.DeserializeObject<Deck>(json);
         }
     }
 }
