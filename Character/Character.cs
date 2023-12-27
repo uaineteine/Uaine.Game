@@ -7,18 +7,21 @@ namespace Uaine.Game.Characters
     {
         public TextObject Description;
         public CharacterStats Stats;
+        public Treasury playerMoney;
 
-        public Character(User charinfo, TextObject desc, CharacterStats stats) : 
+        public Character(User charinfo, TextObject desc, CharacterStats stats, Treasury plmoney) : 
             base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
         {
             this.Description = desc;
             this.Stats = stats;
+            this.playerMoney = plmoney;
         }
-        public Character(User charinfo, CharacterStats stats) : 
+        public Character(User charinfo, CharacterStats stats, Treasury plmoney) : 
             base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
         {
             this.Description = new TextObject("");
             this.Stats = stats;
+            this.playerMoney = plmoney;
         }
     }
 }
