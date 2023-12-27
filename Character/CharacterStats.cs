@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Uaine.Objects.Game
+﻿namespace Uaine.Game.Characters
 {
     public class CharacterStats : BaseStats
     {

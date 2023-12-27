@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Uaine.Game.Character;
 using Uaine.Objects.Primitives;
 
-namespace Uaine.Objects.Game
+namespace Uaine.Game.Characters
 {
     public class Character : NamedObject
     {

@@ -1,4 +1,5 @@
 ﻿using System;
+using Uaine.Game.Stats;
 using Uaine.Objects.Primitives;
 
 namespace Uaine.Objects.Game
