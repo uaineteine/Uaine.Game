@@ -1,11 +1,11 @@
-﻿namespace Uaine.Game.Character
+﻿namespace Uaine.Game.Characters
 {
     public class Skill
     {
-        int Value;
-        public Skill(int value)
-        { 
-            Value = value;
+        public LevelSystem skillLevel;
+        public Skill(LevelSystem skill)
+        {
+            skillLevel = skill;
         }
     }
 }
