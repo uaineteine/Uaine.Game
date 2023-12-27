@@ -1,14 +1,16 @@
-﻿namespace Uaine.Game.Characters
+﻿using Uaine.Game.Stats;
+
+namespace Uaine.Game.Characters
 {
-    public class CharacterStats : BaseStats
+    public class CharacterStats
     {
-        float XP;
-        int Level;
-        private float speed = 1f;
-        public float Speed { get => speed; set => speed = value; }
-        public void LevelUp()
+        public Skills skills { get; private set; }
+        public ObjectStatus stats { get; private set; }
+
+        public CharacterStats(Skills skills, ObjectStatus stats)
         {
-            Level += 1;
+            this.skills = skills;
+            this.stats = stats;
         }
     }
 }

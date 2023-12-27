@@ -1,17 +1,24 @@
-﻿using Uaine.Game.Character;
-using Uaine.Objects.Primitives;
+﻿using Uaine.Objects.Primitives;
+using Uaine.Users;
 
 namespace Uaine.Game.Characters
 {
-    public class Character : NamedObject
+    public class Character : User
     {
         public TextObject Description;
         public CharacterStats Stats;
 
-        public Character(string Name, TextObject description, CharacterStats stats) : base(Name)
+        public Character(User charinfo, TextObject desc, CharacterStats stats) : 
+            base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
         {
-            Description = description;
-            Stats = stats;
+            this.Description = desc;
+            this.Stats = stats;
+        }
+        public Character(User charinfo, CharacterStats stats) : 
+            base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
+        {
+            this.Description = new TextObject("");
+            this.Stats = stats;
         }
     }
 }

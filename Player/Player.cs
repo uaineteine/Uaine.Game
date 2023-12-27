@@ -1,13 +1,14 @@
-﻿using Uaine.Objects.Primitives.ID;
+﻿using Uaine.Game.Characters;
+using Uaine.Objects.Primitives.ID;
 
 namespace Uaine.Game.Player
 {
-    public class Player : ID32
+    public class Player : Character
     {
-        Character playerChar;
-        public Player(Character playercharacter, int id) : base(id)
+        ID32 PlayerID;
+        public Player(Character playercharacter, int id) : base(playercharacter, playercharacter.Description, playercharacter.Stats)
         {
-            playerChar = playercharacter;
+            PlayerID = id;
         }
     }
 }
