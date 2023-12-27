@@ -1,37 +1,40 @@
 using Uaine.Objects.Primitives.Values;
 
-public class Treasury : IValue
+namespace Uaine.Game
 {
-    protected int decimalplaces;
-    public int DecimalPlaces => decimalplaces;
-    public Treasury(int startingpot, int decimalfigures) : base(startingpot, 0)
+    public class Treasury : IValue
     {
-        decimalplaces = decimalfigures;
-    }
-    
-    public string ToString()
-    {
-        string v = Value.ToString();
-        return v.Insert(v.Length - decimalplaces, ".");
-    }
-    public bool hasBalance(int amnt)
-    {
-        if (Value >= amnt)
-            return true;
-        return false; //else
-    }
-    public bool Give(int amnt, ref Treasury TresToBeGiven)
-    {
-        if(hasBalance(amnt))
+        protected int decimalplaces;
+        public int DecimalPlaces => decimalplaces;
+        public Treasury(int startingpot, int decimalfigures) : base(startingpot, 0)
         {
-            Value -= amnt;
-            TresToBeGiven.Value += amnt;
-            return true;
+            decimalplaces = decimalfigures;
         }
-        else
+
+        public string ToString()
         {
-            Give(Value, ref TresToBeGiven);
-            return false;
+            string v = Value.ToString();
+            return v.Insert(v.Length - decimalplaces, ".");
+        }
+        public bool hasBalance(int amnt)
+        {
+            if (Value >= amnt)
+                return true;
+            return false; //else
+        }
+        public bool Give(int amnt, ref Treasury TresToBeGiven)
+        {
+            if (hasBalance(amnt))
+            {
+                Value -= amnt;
+                TresToBeGiven.Value += amnt;
+                return true;
+            }
+            else
+            {
+                Give(Value, ref TresToBeGiven);
+                return false;
+            }
         }
     }
 }

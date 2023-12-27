@@ -1,6 +1,6 @@
 ﻿using Uaine.Objects.Primitives.Values;
 
-namespace Uaine.Objects.Game
+namespace Uaine.Game
 {
     public class Counter : IValue
     {
