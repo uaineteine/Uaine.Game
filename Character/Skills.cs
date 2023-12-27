@@ -15,7 +15,8 @@ namespace Uaine.Game.Stats
             Intelligence = intl;
             Leadership = ldrsp;
             Strength = strg;
-            Crafting = cmb;
+            Crafting = crft;
+            Combat = cmb;
         }
     }
 }
