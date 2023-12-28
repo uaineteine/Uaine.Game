@@ -1,11 +1,10 @@
-﻿using Uaine.Objects.Primitives;
+﻿using Uaine.UID;
 
-namespace Uaine.Game.Usables
+namespace Uaine.Game.Items
 {
-    public class Item : NamedObject
+    public class Item
     {
-        public TextObject Description;
-        public BaseStats Stats;
+        public UniqueID UsableID;
         public ItemStack stack;
         public void addStack(int number)
         {
@@ -15,10 +14,9 @@ namespace Uaine.Game.Usables
         {
             stack.removeStack(number);
         }
-        public Item(string Name, TextObject description, CharacterStats stats, ItemStack itmstack) : base(Name)
+        public Item(UniqueID id, ItemStack itmstack)
         {
-            Description = description;
-            Stats = stats;
+            UsableID = id;
             stack = itmstack;
         }
     }
