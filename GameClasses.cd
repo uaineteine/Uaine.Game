@@ -70,11 +70,12 @@
       <FileName>Characters\Character.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uaine.Game.Characters.CharacterList">
+  <Class Name="Uaine.Game.Usables.UsableList">
     <Position X="1.5" Y="15.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>IAAAAAAAQAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAIA=</HashCode>
-      <FileName>Characters\CharacterList.cs</FileName>
+      <FileName>Usables\UsableList.cs</FileName>
+      <NewMemberFileName>Characters\CharacterList.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Player.Player">
@@ -87,7 +88,7 @@
   <Class Name="Uaine.Game.Usables.Usable">
     <Position X="1.25" Y="18.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAAAAQAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Usables\Usable.cs</FileName>
     </TypeIdentifier>
   </Class>

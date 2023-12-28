@@ -34,7 +34,7 @@ namespace Uaine.Game.Characters
         // Deserialize method to create a UserGroup from a JSON string
         public static new Character DeserializeFromJson(string json)
         {
-            return JsonConvert.DeserializeObject<UserGroup>(json);
+            return JsonConvert.DeserializeObject<Character>(json);
         }
     }
 }
