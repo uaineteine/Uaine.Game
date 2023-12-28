@@ -1,4 +1,5 @@
-﻿using Uaine.Objects.Primitives;
+﻿using Newtonsoft.Json;
+using Uaine.Objects.Primitives;
 using Uaine.Users;
 
 namespace Uaine.Game.Characters
@@ -22,6 +23,18 @@ namespace Uaine.Game.Characters
             this.Description = new TextObject("");
             this.Stats = stats;
             this.playerMoney = plmoney;
+        }
+
+        // Serialize method to convert UserGroup to a JSON string
+        public new string SerializeToJson()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
+
+        // Deserialize method to create a UserGroup from a JSON string
+        public static new Character DeserializeFromJson(string json)
+        {
+            return JsonConvert.DeserializeObject<UserGroup>(json);
         }
     }
 }
