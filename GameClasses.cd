@@ -71,25 +71,53 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Usables.UsableList">
-    <Position X="1.5" Y="15.5" Width="2.75" />
+    <Position X="7.5" Y="20.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>IAAAAAAAQAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>IAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAIA=</HashCode>
       <FileName>Usables\UsableList.cs</FileName>
       <NewMemberFileName>Characters\CharacterList.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Player.Player">
-    <Position X="4.5" Y="15.5" Width="2" />
+    <Position X="9.75" Y="15.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Player\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Usables.Usable">
-    <Position X="1.25" Y="18.75" Width="2.75" />
+    <Position X="4.5" Y="20.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAQAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAAAAQAAAggAAAAAAAAAAAACBAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Usables\Usable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Characters.CharacterList">
+    <Position X="9" Y="11" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Characters\CharacterList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.items.Container">
+    <Position X="5.75" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAABAAAA=</HashCode>
+      <FileName>items\Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Items.Item">
+    <Position X="8.25" Y="18.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAhKAAAAAAAAAAAAA=</HashCode>
+      <FileName>items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Items.ItemStack">
+    <Position X="10.5" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAABKIQAAACEAAAAAA=</HashCode>
+      <FileName>items\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

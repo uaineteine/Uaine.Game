@@ -22,7 +22,7 @@ namespace Uaine.Game.items
             }
             else
             {
-                //todo throw error
+                new ArgumentException("Contents longer than container size");
             }
         }
     }
