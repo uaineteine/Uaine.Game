@@ -5,6 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageIcon>icon.png</PackageIcon>
+    <Copyright>Daniel Stamer-Squair 2023</Copyright>
+    <RepositoryUrl>https://github.com/uaineteine/Uaine.Game</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/uaineteine/Uaine.Game</PackageProjectUrl>
+    <Description>Game classes and assets to expedite unity or other mini game builds</Description>
+    <Authors>Daniel Stamer-Squair</Authors>
+    <Title>Uaine.Game</Title>
   </PropertyGroup>
 
   <ItemGroup>
