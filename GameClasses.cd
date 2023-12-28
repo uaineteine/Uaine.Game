@@ -7,7 +7,7 @@
       <FileName>Card\Card.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Treasury">
+  <Class Name="Uaine.Game.Treasury">
     <Position X="4.25" Y="5.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAAEAAAQAAAAAAAAAAAACBAAAAAAAAA=</HashCode>
@@ -21,7 +21,7 @@
       <FileName>Card\Deck.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uaine.Objects.Game.Counter">
+  <Class Name="Uaine.Game.Counter">
     <Position X="2.25" Y="5.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAACAAAAAAAA=</HashCode>
@@ -46,28 +46,49 @@
     <Position X="5" Y="10.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Character\CharacterStats.cs</FileName>
+      <FileName>Characters\CharacterStats.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Characters.LevelSystem">
     <Position X="3" Y="9.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAAAAAgAAAAAAABAAAAAAAhAAAAAEAAAAA=</HashCode>
-      <FileName>Character\LevelSystem.cs</FileName>
+      <FileName>Characters\LevelSystem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Characters.Skill">
     <Position X="5" Y="8.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Character\Skill.cs</FileName>
+      <FileName>Characters\Skill.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Characters.Character">
-    <Position X="7.5" Y="8.75" Width="3" />
+    <Position X="7.25" Y="8.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>ABAABAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Character\Character.cs</FileName>
+      <HashCode>ABAABAAAAAAgABAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Characters.CharacterList">
+    <Position X="1.5" Y="15.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Characters\CharacterList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Player.Player">
+    <Position X="4.5" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uaine.Game.Usables.Usable">
+    <Position X="1.25" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Usables\Usable.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
