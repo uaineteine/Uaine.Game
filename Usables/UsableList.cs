@@ -28,7 +28,7 @@ namespace Uaine.Game.Usables
             string[] output = new string[usables.Count];
             for (int i = 0; i < usables.Count; i++)
             {
-                output[i] = usables[i]();
+                output[i] = usables[i].SeralizeToJSON();
             }
             return output;
         }

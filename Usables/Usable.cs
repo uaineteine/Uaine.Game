@@ -29,7 +29,7 @@ namespace Uaine.Game.Usables
         }
 
         // Seralize
-        public string Seralize()
+        public string SeralizeToJSON()
         {
             return JsonConvert.SerializeObject(this);
         }
