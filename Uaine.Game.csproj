@@ -5,18 +5,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageIcon>icon.png</PackageIcon>
-    <Copyright>Daniel Stamer-Squair 2023</Copyright>
+    <Copyright>Daniel Stamer-Squair 2024</Copyright>
     <RepositoryUrl>https://github.com/uaineteine/Uaine.Game</RepositoryUrl>
     <PackageProjectUrl>https://github.com/uaineteine/Uaine.Game</PackageProjectUrl>
     <Description>Game classes and assets to expedite unity or other mini game builds</Description>
     <Authors>Daniel Stamer-Squair</Authors>
     <Title>Uaine.Game</Title>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Uaine.Objects" Version="2.0.1" />
     <PackageReference Include="Uaine.UID" Version="2.0.0" />
-    <PackageReference Include="Uaine.Users" Version="1.0.0" />
+    <PackageReference Include="Uaine.Users" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,14 +11,22 @@ namespace Uaine.Game.Characters
         public Treasury playerMoney;
 
         public Character(User charinfo, TextObject desc, CharacterStats stats, Treasury plmoney) : 
-            base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
+            base(charinfo.Name, "", charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
         {
             this.Description = desc;
             this.Stats = stats;
             this.playerMoney = plmoney;
         }
         public Character(User charinfo, CharacterStats stats, Treasury plmoney) : 
-            base(charinfo.Name, charinfo.Credentials.Password, charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
+            base(charinfo.Name, "", charinfo.UserGroupID, charinfo.Rank, charinfo.ID)
+        {
+            this.Description = new TextObject("");
+            this.Stats = stats;
+            this.playerMoney = plmoney;
+        }
+        public Character(string name, string pswd, GroupID groupid, int acntrank, Uaine.UID.UniqueID id,
+            CharacterStats stats, Treasury plmoney) :
+            base(name, pswd, groupid, acntrank, id)
         {
             this.Description = new TextObject("");
             this.Stats = stats;
