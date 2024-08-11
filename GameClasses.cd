@@ -7,13 +7,6 @@
       <FileName>Card\Card.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uaine.Game.Treasury">
-    <Position X="4.25" Y="5.5" Width="2.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAAAEAAAQAAAAAAAAAAAACBAAAAAAAAA=</HashCode>
-      <FileName>Treasury.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Uaine.Objects.Game.Card.Deck">
     <Position X="4.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
@@ -28,50 +21,8 @@
       <FileName>Counter.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uaine.Game.Stats.Stat">
-    <Position X="5.25" Y="12.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Stats\Stat.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Uaine.Game.Stats.ObjectStatus">
-    <Position X="7.25" Y="11" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAACAAAAgAAAAQAAAgAAAABAoAAAAAAAAAAggAAAAE=</HashCode>
-      <FileName>Stats\ObjectStatus.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Uaine.Game.Characters.CharacterStats">
-    <Position X="5" Y="10.5" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Characters\CharacterStats.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Uaine.Game.Characters.LevelSystem">
-    <Position X="3" Y="9.5" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAAAgAAAAAAABAAAAAAAhAAAAAEAAAAA=</HashCode>
-      <FileName>Characters\LevelSystem.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Uaine.Game.Characters.Skill">
-    <Position X="5" Y="8.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Characters\Skill.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Uaine.Game.Characters.Character">
-    <Position X="7.25" Y="8.5" Width="3" />
-    <TypeIdentifier>
-      <HashCode>ABAABAAAAAAgABAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Characters\Character.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Uaine.Game.Usables.UsableList">
-    <Position X="7.5" Y="20.75" Width="2.75" />
+    <Position X="9.75" Y="11.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>IAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAIA=</HashCode>
       <FileName>Usables\UsableList.cs</FileName>
@@ -79,42 +30,35 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Player.Player">
-    <Position X="9.75" Y="15.5" Width="2" />
+    <Position X="12" Y="6.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Player\Player.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Usables.Usable">
-    <Position X="4.5" Y="20.75" Width="2.75" />
+    <Position X="6.75" Y="11.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AEAAAAAQAAAggAAAAAAAAAAAACBAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Usables\Usable.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Uaine.Game.Characters.CharacterList">
-    <Position X="9" Y="11" Width="3" />
-    <TypeIdentifier>
-      <HashCode>IAAAAAAAQAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAIA=</HashCode>
-      <FileName>Characters\CharacterList.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Uaine.Game.items.Container">
-    <Position X="5.75" Y="18.25" Width="2.25" />
+    <Position X="8" Y="9" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAABAAAA=</HashCode>
       <FileName>items\Container.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Items.Item">
-    <Position X="8.25" Y="18.25" Width="2" />
+    <Position X="10.5" Y="9" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAhKAAAAAAAAAAAAA=</HashCode>
       <FileName>items\Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Uaine.Game.Items.ItemStack">
-    <Position X="10.5" Y="18.25" Width="2.5" />
+    <Position X="12.75" Y="9" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAABKIQAAACEAAAAAA=</HashCode>
       <FileName>items\Item.cs</FileName>

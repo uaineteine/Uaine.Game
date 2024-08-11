@@ -11,13 +11,14 @@
     <Description>Game classes and assets to expedite unity or other mini game builds</Description>
     <Authors>Daniel Stamer-Squair</Authors>
     <Title>Uaine.Game</Title>
-    <Version>1.0.1</Version>
+    <Version>2.0.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Uaine.Game.Character" Version="2.0.1.1" />
     <PackageReference Include="Uaine.Objects" Version="2.0.1" />
     <PackageReference Include="Uaine.UID" Version="2.0.0" />
-    <PackageReference Include="Uaine.Users" Version="1.1.0" />
+    <PackageReference Include="Uaine.Users" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>
