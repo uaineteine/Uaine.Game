@@ -1,5 +1,4 @@
-﻿using Uaine.Game.Characters;
-using Uaine.Objects.Primitives.ID;
+﻿using Uaine.Objects.Primitives.ID;
 using Uaine.UID;
 
 namespace Uaine.Game.Player

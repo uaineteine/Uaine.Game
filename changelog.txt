@@ -1,3 +1,7 @@
-﻿--1.0.1--
+﻿--2.0--
+Update user package to 1.1.1 from 1.1.0
+Split off character classes into seperate package for characters
+
+--1.0.1--
 Update user package to 1.1 from 1.0
 Modified constructor for character class
