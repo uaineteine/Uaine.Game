@@ -22,7 +22,7 @@ Add source project to solution with reference to get started or install via [NuG
 
 ![itmusdiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Game/release/images/itemsandusables.png)
 
-## Version 1.0
+## Version 2.0.1.1
 
 See the [changelog](changelog.txt) for details.
 
